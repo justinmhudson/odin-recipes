@@ -1,5 +1,10 @@
 * {
     background-color: #000;
+    color: #fff;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Text */
@@ -8,25 +13,23 @@ h1 {
     font-family: 'Verdana', sans-serif;
     text-align: center;
     font-size: 44px;
+    margin: 20px 0px;
 }
 
 h2 {
     font-family: 'Times New Roman', serif;
     font-size: 36px;
+    margin: 20px 50px;
 }
 
 p, ol, ul {
     font-family: 'Garamond', serif;
     font-size: 30px;
+    margin: 10px 100px;
 }
 
-h1,
-h2,
-p,
-ol,
-ul,
-a {
-    color: #fff;
+li {
+    margin: 10px 0px;
 }
 
 a:visited {
@@ -36,13 +39,12 @@ a:visited {
 /* Images */
 
 img{
-    display:block;
-    margin: auto;
-}
-
-div{
     display: block;
     margin: auto;
-    width: 100%;
+    border: 6px solid #888;
+}
+
+#pbj{
+    padding: 50px;
     background-color: #fff;
 }
