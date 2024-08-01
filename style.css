@@ -1,0 +1,48 @@
+* {
+    background-color: #000;
+}
+
+/* Text */
+
+h1 {
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    font-size: 44px;
+}
+
+h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 36px;
+}
+
+p, ol, ul {
+    font-family: 'Garamond', serif;
+    font-size: 30px;
+}
+
+h1,
+h2,
+p,
+ol,
+ul,
+a {
+    color: #fff;
+}
+
+a:visited {
+    color: #888;
+}
+
+/* Images */
+
+img{
+    display:block;
+    margin: auto;
+}
+
+div{
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: #fff;
+}
